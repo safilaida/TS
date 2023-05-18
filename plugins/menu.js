@@ -19,8 +19,8 @@ const defaultMenu = {
 │✎ Level *%level (%exp / %maxexp)* [%xp4levelup]
 │✎ %totalexp XP secara Total
 │ 
-│✎ Tanggal: *%date*
-│✎ Tanggal Islam: *%dateIslamic*
+│✎ Tarikh: *%date*
+│✎ Tarikh Islam: *%dateIslamic*
 │✎ Waktu: *%time*
 │
 │✎ Uptime: %muptime
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-┏─── ⳹°❀❬ Aviabot ❭❀°
+┏─── ⳹°❀❬ Safila Ida ❭❀°
 │✎ _Aktif Selama:_ ${mpt}
 │✎ _Jam:_ ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 │✎ _User:_ ${Object.keys(global.db.data.users).length}
@@ -250,7 +250,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 `
 const listMessage = {
   text: tek,
-  footer: '© by Putbotz',
+  footer: '© by Amirul Shafiq',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
@@ -537,7 +537,7 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Selamat DiniHari ☀️"
+  let res = "Selamat Datang ☀️"
   if (time >= 4) {
     res = "Good Morning 🌄"
   }
