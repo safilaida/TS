@@ -46,7 +46,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = 'https://www.instagram.com/whooputt'
 global.sgh = 'https://github.com/Putbotz'
-global.sgc = 'https://chat.whatsapp.com/L5A62ACjj9IDiIZ962HsYp'
+global.sgc = 'https://wa.link/uo9p4l'
 global.sdc = " "
 global.snh = 'https://nhentai.net/g/365296/'
 
@@ -59,16 +59,16 @@ global.ppulsa2 = '081336990781'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '60147366955'
-global.nomorown = '601169466091'
-global.namebot = 'HOSTING BOT BY PUT'
-global.nameown = '𝕻𝖚𝖙'
+global.nomorbot = '60193830253'
+global.nomorown = '60193830253'
+global.namebot = 'HOSTING BOT BY AS'
+global.nameown = 'AS'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['601169466091'],
-  ['601169466091', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
+  ['60193830253'],
+  ['60193830253', 'AS 𝕯𝖊𝖛', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
