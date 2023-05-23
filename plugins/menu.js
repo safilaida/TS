@@ -536,7 +536,7 @@ function clockStringP(ms) {
   return [ye, ' *Years 🗓️*\n',  mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h, ' *Hours 🕐*\n', m, ' *Minute ⏰*\n', s, ' *Second ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Malaysia').format('HH')
   let res = "Selamat Datang ☀️"
   if (time >= 4) {
     res = "Good Morning 🌄"
